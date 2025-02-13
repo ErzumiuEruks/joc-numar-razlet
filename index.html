@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghiceste numarul</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="adivina_numero.js" defer></script>
+</head>
+<body>
+    <h1>Numarul Razlet si Sugubet</h1>
+
+    <p>Introduceti un numar intre 1 si 100</p>
+    <p>Incearca sa il ghicesti in 10 incercari sau mai putine</p>
+    <p>Vei avea un indiciu daca numarul este mai mare sau mai mic</p>
+    
+    <div class="form">
+        <label for="guessField">Introduceti numarul</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>
