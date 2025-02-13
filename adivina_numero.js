@@ -60,12 +60,12 @@ function checkGuess(){
 
     //En este bloque comprobaremos los pasos del 5 al 8
     if(userGuess===numar){
-        lastResult.textContent="Bravo ba fraiere";
+        lastResult.textContent="Bravo";
         lastResult.style.backgroundColor="green";
         lowOrHi.textContent="";
         setGameOver();
     }else if(guessCount===10){
-        lastResult.textContent="Ai pierdut fraiere";
+        lastResult.textContent="Ai";
         setGameOver();
     }else{
         lastResult.textContent="Incorect";
